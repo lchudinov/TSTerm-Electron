@@ -5,10 +5,10 @@
     "sourceMap": true,
     "outDir": "dist",
     "baseUrl": ".",
-    "moduleResolution": "node",
     "paths": {
       "*": ["node_modules/*"]
-    }
+    },
+    "skipLibCheck": true
   },
   "include": [
     "src/**/*"
